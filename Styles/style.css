@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/5877662/pexels-photo-5877662.jpeg?cs=srgb&dl=pexels-karolina-grabowska-5877662.jpg&fm=jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+h2{
+    color: hsl(216, 72%, 42%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+.reloj{
+    display: flex;
+}
+.reloj div{
+    margin: 5px;
+    position: relative;
+}
+.reloj span{
+    width: 100px;
+    height: 80px;
+    background: rgb(38, 105, 192);
+    border-radius: 5px;
+    opacity: 0.8;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.reloj .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(22, 24, 133);
+    opacity: 0.8;
+}
+.reloj #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(22, 24, 133);
+}
